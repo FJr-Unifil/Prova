@@ -1,7 +1,5 @@
 package prova;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -19,7 +17,7 @@ public class e2 {
             salarioF = salarioF + (taxa*salarioF);
             ano = ano+1;
         } while(ano != 2023);
-  System.out.println("O salario dele em "+ano+" foi de R$"+df.format(salarioF));
+  System.out.println("O salario dele em "+(ano-1)+" foi de R$"+df.format(salarioF));
 
     }
 }
