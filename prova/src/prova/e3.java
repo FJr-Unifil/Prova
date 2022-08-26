@@ -33,8 +33,5 @@ public class e3 {
         System.out.println("Massa inicial: "+massaI);
         System.out.println("Massa final: "+massaF);
         System.out.println("Tempo: "+t3+" horas, "+t2+" minutos e "+t+" segundos");
-        System.out.println(cont);
-
-
     }
 }
