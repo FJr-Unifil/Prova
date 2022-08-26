@@ -23,8 +23,8 @@ public class e3 {
         } while (massaF > 0.5);
         if (t >= 3600){
             t2 = t/60;
-            t3 = t2/24;
-            t2 = t2 % 24;
+            t3 = t2/60;
+            t2 = t2 % 60;
             t = t2 % 60;
         } else if (t <= 3599 && t > 60){
             t2 = t/60;
