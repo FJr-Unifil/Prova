@@ -17,11 +17,9 @@ public class e2 {
         do{
             taxa = taxa*2;
             salarioF = salarioF + (taxa*salarioF);
-            System.out.println("O salario dele em "+ano+" foi de R$"+df.format(salarioF));
             ano = ano+1;
-
         } while(ano != 2023);
-
+  System.out.println("O salario dele em "+ano+" foi de R$"+df.format(salarioF));
 
     }
 }
